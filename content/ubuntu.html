@@ -1,0 +1,11 @@
+---
+title: Ubuntu
+---
+
+<h1>Ubuntu</h1>
+
+<ul>
+<% @items.find_all('/ubuntu/*.torrent').each do |torrent| %>
+  <li><a href="<%= torrent.path %>"><%= torrent.path %></a></li>
+<% end %>
+</ul>

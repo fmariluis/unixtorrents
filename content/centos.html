@@ -1,0 +1,11 @@
+---
+title: CentOS
+---
+
+<h1>CentOS</h1>
+
+<ul>
+<% @items.find_all('/centos/*.torrent').each do |torrent| %>
+  <li><a href="<%= torrent.path %>"><%= torrent.path %></a></li>
+<% end %>
+</ul>
