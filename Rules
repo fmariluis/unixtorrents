@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+passthrough '/**/*.torrent'
 
 compile '/ubuntu.*' do
   filter :erb
