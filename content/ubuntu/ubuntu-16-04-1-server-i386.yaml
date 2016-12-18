@@ -1,0 +1,5 @@
+---
+arch: i386
+version: "16.04.1"
+class: server
+---
