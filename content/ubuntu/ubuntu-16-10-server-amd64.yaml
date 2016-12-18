@@ -1,0 +1,5 @@
+---
+arch: amd64
+version: "16.10"
+class: server
+---
